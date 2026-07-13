@@ -1,1 +1,1 @@
-<img src="/entendendo_algoritmos.jpg" alt="" width="360px" height="430px">
+<img src="/entendendo_algoritmos.webp" alt=""  width="440px" height="570px">
