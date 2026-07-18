@@ -12,8 +12,8 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 
 <img src="imagens/pesquisa_binaria.jpg">
 
-**Exemplo em python:**
-<a href="https://github.com/mayconct32/livro_entendendo_algoritmos/blob/main/Cap%201%20Introdu%C3%A7%C3%A3o%20a%20algoritmos/pesquisa_binaria.py">pesquisa_binaria.py<a/>
+**Implementação em python:**
+<a href="https://github.com/mayconct32/livro_entendendo_algoritmos/blob/main/Cap%201%20Introdu%C3%A7%C3%A3o%20a%20algoritmos/pesquisa_binaria.py">pesquisa_binaria.py</a>
 
 <br>
 

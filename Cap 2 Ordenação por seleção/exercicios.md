@@ -22,10 +22,22 @@ Lista encadeada, pelo alto número de inserções e eliminações.
 
 <br>
 
-Array ordenado, porque o array é eficiente em buscas.
+Array ordenado, porque o array é eficiente no acesso a dados aleatórios que estejam indexados.
 
 <br>
 
 **2.4 As pessoas se inscrevem no Facebook com muita frequência também. Suponha que você decida usar um array para armazenar a lista de usuários. Quais as desvantagens de um array em relação às inserções? Em particular, imagine que você está usando a pesquisa binária para buscar os logins. O que acontece quando você adiciona novos usuários em um array?**
+
+<br>
+
+Os arrays são lentos para inserções, no pior caso (quando não há mais espaço), o tempo de execução será O(n). Além disso, para utilizar o algoritmo de pesquisa binária, será necessário ordenar os dados para que ela funcione corretamente.
+
+<br>
+
+**2.5 Na verdade, o Facebook não usa nem arrays nem listas encadeadas para armazenar informações. Vamos considerar uma estrutura de dados híbrida: um array de listas encadeadas. Você tem um array com 26 slots. Cada slot aponta para uma lista encadeada. Por exemplo, o primeiro slot do array aponta para uma lista encadeada que contém os usuários que começam com a letra A. O segundo slot aponta para uma lista encadeada que contém os usuários que começam com a letra B, e assim por diante. Suponha que o Adit B se inscreva no Facebook e você queira adicioná-lo à lista. Você vai ao slot 1 do array, a seguir para a lista encadeada do slot 1, e adiciona Adit B no final. Agora, suponha que você queira procurar o Zakhir H. Você vai ao slot 26, que aponta para a lista encadeada de todos os nomes começados em Z. Então, procura pela lista até encontrar o Zakhir H. Compare esta estrutura híbrida com arrays e listas encadeadas. É mais lento ou mais rápido fazer inserções e eliminações nesse caso? Você não precisa responder dando o tempo de execução em Big(O), apenas diga se a nova estrutura de dados é mais rápida ou mais lenta do que os arrays e as listas encadeadas.**
+
+<br>
+
+Para buscas - mais lenta do que arrays, mais rápida do que listas encadeadas. Para inserções - mais rápida do que arrays, mesmo tempo que as listas encadeadas. Portanto é mais lenta para buscas que os arrays, porém mais rápida ou igual às listas encadeadas para tudo.
 
 <br>
