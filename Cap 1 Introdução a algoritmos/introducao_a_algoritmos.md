@@ -1,5 +1,4 @@
 # Cap 1 Introdução a algoritmos
-<hr>
 
 
 ## Algoritmo
@@ -7,6 +6,7 @@
 >"Um algoritmo é um conjunto de instruções que realizam uma tarefa."
 
 Cada trecho poderia ser chamado de algoritmo, mas este livro trata dos trechos mais interessantes
+<br>
 
 
 ## Pesquisa binária
@@ -17,6 +17,7 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 
 **Exemplo em python:**
 <a href="https://github.com/mayconct32/livro_entendendo_algoritmos/blob/main/Cap%201%20Introdu%C3%A7%C3%A3o%20a%20algoritmos/pesquisa_binaria.py">pesquisa_binaria.py<a/>
+<br>
 
 
 ## Notação Big O
@@ -28,6 +29,7 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 **Alguns exemplos comuns de tempo de execução Big O:**
 
 <img src="imagens/tempo_big_o.png" width="500px" height="180px">
+<br>
 
 
 ## O caixeiro-viajante
@@ -36,4 +38,4 @@ O caixeiro-viajante é um problema famoso da ciência da computação, pois seu 
 
 <img src="imagens/caixeiro_viajante.png">
 
-Ele soma a distância total de cada rota possível e escolhe o caminho de menor distância. Existem 120 permutações para cinco cidades; logo, precisa-se de 120 operações para resolver o problema, ou seja, o tempo de execução de um algoritmo para esse problema é O(n!). Você deve estar pensando: "De maneira alguma vou executar um algoritmo que tem tempo de execução O(n!)!" Mas, infelizmente, não temos uma forma melhor de resolvê-lo. 
+Ele soma a distância total de cada rota possível e escolhe o caminho de menor distância. Existem 120 permutações para cinco cidades; logo, precisa-se de 120 operações para resolver o problema, ou seja, o tempo de execução de um algoritmo para esse problema é O(n!). Você deve estar pensando: "De maneira alguma vou executar um algoritmo que tem tempo de execução O(n!)!" Mas, infelizmente, não temos uma forma melhor de resolvê-lo.
