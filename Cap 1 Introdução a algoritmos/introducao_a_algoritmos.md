@@ -4,8 +4,8 @@
 
 Cada trecho poderia ser chamado de algoritmo, mas este livro trata dos trechos mais interessantes
 
-
 <br>
+
 # Pesquisa binária
 
 A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada de elementos. Ela funciona dividindo a lista ao meio, eliminando metade dos elementos contidos nela. Se o elemento que você está buscando estiver na lista, a pesquisa binária retorna a sua localização. Caso contrário, a pesquisa binária retorna None. O que mais impressiona é seu tempo de execução: no pior caso, ele é executado em tempo logarítmico, de modo que, para uma lista de tamanho 8, são necessárias apenas 3 operações, pois log₂ 8 é igual a 3.
@@ -15,6 +15,7 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 **Exemplo em python:**
 <a href="https://github.com/mayconct32/livro_entendendo_algoritmos/blob/main/Cap%201%20Introdu%C3%A7%C3%A3o%20a%20algoritmos/pesquisa_binaria.py">pesquisa_binaria.py<a/>
 
+<br>
 
 # Notação Big O
 
@@ -26,6 +27,7 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 
 <img src="imagens/tempo_big_o.png" width="500px" height="180px">
 
+<br>
 
 # O caixeiro-viajante
 
