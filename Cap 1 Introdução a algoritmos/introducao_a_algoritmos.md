@@ -1,13 +1,14 @@
 # Cap 1 Introdução a algoritmos
 
+<br>
 
 ## Algoritmo
 
 >"Um algoritmo é um conjunto de instruções que realizam uma tarefa."
 
 Cada trecho poderia ser chamado de algoritmo, mas este livro trata dos trechos mais interessantes
-<br>
 
+<br>
 
 ## Pesquisa binária
 
@@ -17,8 +18,8 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 
 **Exemplo em python:**
 <a href="https://github.com/mayconct32/livro_entendendo_algoritmos/blob/main/Cap%201%20Introdu%C3%A7%C3%A3o%20a%20algoritmos/pesquisa_binaria.py">pesquisa_binaria.py<a/>
-<br>
 
+<br>
 
 ## Notação Big O
 
@@ -29,8 +30,8 @@ A pesquisa binária é um algoritmo de busca. Sua entrada é uma lista ordenada 
 **Alguns exemplos comuns de tempo de execução Big O:**
 
 <img src="imagens/tempo_big_o.png" width="500px" height="180px">
-<br>
 
+<br>
 
 ## O caixeiro-viajante
 
